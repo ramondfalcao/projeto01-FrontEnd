@@ -9,12 +9,12 @@ body{
 
 header{
     background-color: rgb(53, 47, 47);
-    padding: 25px;
+    padding: 15px;
     text-align: center;
     position: sticky;
     top: 0;
     z-index: 2;
-
+    display: flex;
 }
 
 header > img{
@@ -22,16 +22,20 @@ header > img{
     width: 70px;
     height: 70px;
     top: 50px;
-    
 }
+
+main {
+    width: 100%;
+}
+
 .itens {
     font-size: 25px;
     color: whitesmoke;
     font-family: 'Rubik', sans-serif;
     text-align: center;
     text-decoration: none;
-    margin-right: 35px;
-    
+    margin: 2%;
+    margin-left: 4%;
 }
 
 .itens:hover{
@@ -42,100 +46,114 @@ header > img{
     padding: 5px 10px;
     
 }
-
-main {
+.container {
     width: 100%;
-}
-main > img{
-    margin-left: 17%;
-    width: 900px;
-    
+    margin-right: 50%;
+    display:block; 
 }
 
-main > h2 {
+.champions{
+    width: 55%;
+    display: flex;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 4%;
+}
+
+.imagem-champions {
+    width: 80%;    
+    margin-left: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 4%;
+}
+
+.container > h2 {
     font-family: 'Rubik', sans-serif;
     text-align: center;
     font-size: 40px;
 }
-main > p {
+.container > p {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     display: block;
     margin-left: 15%;
     margin-right: 11%;
     margin-bottom: 10%;
-}
+} 
 
+/* 
 
-
-.champions{
-    height: 420px;
+.champions{ 
+    width: 50%;
+    display: block;
+    text-align: center;
     margin-top: 2%;
     margin-bottom: 2%;
     border-radius: 4%;
-}
-.champions:hover{
+} */
+.imagem-champions:hover{
     box-shadow: 10px 5px 5px rgb(253, 252, 252);
     transition: 1s;
-    height: 420px;
     margin-top: 2%;
     margin-bottom: 2%;
     border-radius: 4%;
 }
-
+.imagem {
+    width: 55%;
+    display: flex;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 4%;
+}
 .estatisticas{
     width: 600px;
-    margin-top: 50px;
+    margin-top: 2%;
     margin-left: 19%;
     font-family: 'Rubik', sans-serif;
     border-radius: 4%;
     margin-bottom: 40px;  
 }
 .jogadores3{
-    width: 600px;
-    margin-top: 50px;
-    margin-left: 19%;
+    width: 80%;    
+    margin-left: 50%;
+    margin-top: 2%;
+    margin-bottom: 1%;
     border-radius: 4%;
 }
+
 .jogadores2{
-    width: 600px;
-    margin-top: 50px;
-    margin-left: 19%;
+    width: 80%;    
+    margin-left: 50%;
+    margin-top: 2%;
+    margin-bottom: 1%;
     border-radius: 4%;
 }
 .jogadores1{
-    width: 600px;
-    margin-top: 50px;
-    margin-left: 19%;
+    width: 80%;    
+    margin-left: 50%;
+    margin-top: 2%;
+    margin-bottom: 1%;
     border-radius: 4%;
 }
-
 .jogadores3:hover{
     box-shadow: 10px 5px 5px red;
-    transition: 1s;
-    width: 600px;
-    margin-top: 50px;
-    margin-left: 19%;
-    border-radius: 4%;
-}
-
+    transition: 1s ;
+   
+} 
+ 
 .jogadores2:hover{
     box-shadow: 10px 5px 5px blue;
-    transition: 1s;
-    width: 600px;
-    margin-top: 50px;
-    margin-left: 19%;
-    border-radius: 4%;
-}
+    transition: 1s ;
+   
+} 
 
-.jogadores1:hover{
+ .jogadores1:hover{
     box-shadow: 10px 5px 5px gold;
-    transition: 1s;
-    width: 600px;
-    margin-top: 50px;
-    margin-left: 19%;
-    border-radius: 4%;
-}
+    transition: 1s ; 
+} 
 footer {
     border: 1px solid rgb(221, 216, 216);
     padding: 42px;
