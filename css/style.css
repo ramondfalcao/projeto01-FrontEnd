@@ -83,16 +83,6 @@ main {
     margin-bottom: 10%;
 } 
 
-/* 
-
-.champions{ 
-    width: 50%;
-    display: block;
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    border-radius: 4%;
-} */
 .imagem-champions:hover{
     box-shadow: 10px 5px 5px rgb(253, 252, 252);
     transition: 1s;
