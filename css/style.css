@@ -48,8 +48,9 @@ main > img {
     transition: 1s;
     border-radius: 5%;
     padding: 5px 10px;
-    
 }
+
+
 .container {
     width: 100%;
     margin-right: 50%;
@@ -136,18 +137,21 @@ main > img {
     border-radius: 4%;
 }
 .jogadores3:hover{
+    width: 82%;
     box-shadow: 10px 5px 5px red;
     transition: 1s ;
    
 } 
  
 .jogadores2:hover{
+    width: 82%;
     box-shadow: 10px 5px 5px blue;
     transition: 1s ;
    
 } 
 
  .jogadores1:hover{
+    width: 82%;
     box-shadow: 10px 5px 5px gold;
     transition: 1s ; 
 } 
