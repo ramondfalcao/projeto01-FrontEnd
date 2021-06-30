@@ -33,6 +33,7 @@ main > img {
 }
 
 .itens {
+    transition: 0.8s;
     font-size: 25px;
     color: whitesmoke;
     font-family: 'Rubik', sans-serif;
@@ -48,6 +49,7 @@ main > img {
     transition: 1s;
     border-radius: 5%;
     padding: 5px 10px;
+    
 }
 
 
@@ -119,6 +121,7 @@ main > img {
     margin-top: 2%;
     margin-bottom: 1%;
     border-radius: 4%;
+    transition: 0.8s;
 }
 
 .jogadores2{
@@ -128,6 +131,7 @@ main > img {
     margin-top: 2%;
     margin-bottom: 1%;
     border-radius: 4%;
+    transition: 0.8s;
 }
 .jogadores1{
     width: 80%;    
@@ -135,6 +139,7 @@ main > img {
     margin-top: 2%;
     margin-bottom: 1%;
     border-radius: 4%;
+    transition: 0.8s;
 }
 .jogadores3:hover{
     width: 82%;
